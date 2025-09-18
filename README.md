@@ -49,28 +49,45 @@ A **multi-functional healthcare assistant chatbot** integrating **Q&A, fact-chec
 ---
 
 ## 📂 Folder Structure
+
 ├── app.py # Main chatbot app
+
 ├── collect_data.py # Wearable/manual data collection
+
 ├── disease_prediction.py # Symptom-based disease prediction
+
 ├── food_rec.py # Food recommendation system
+
 ├── interactive_query.py # Q&A + Fact-checking interface
+
 ├── parse_medquad.py # Parsing MedQuAD dataset
+
 ├── process_chunks.py # RAG preprocessing
+
 ├── rag_query.py # RAG-based query system
+
 │
+
 ├── Patient_Appointment/
+
 │ ├── app.py # Appointment scheduling app
+
 │ ├── config.py # Configurations
+
 │ ├── distance.py # Distance calculator for hospitals
+
 │ ├── geolocation.py # Location-based hospital mapping
+
 │ ├── hospitals.csv # Hospital-doctor database
+
 │
+
 ├── DL_Disease_Prediction.ipynb # Deep Learning disease models
+
 ├── requirements.txt # Project dependencies
+
 ├── README.md # Project documentation
 
-yaml
-Copy code
 
 ---
 
